@@ -1,0 +1,1 @@
+create collation c1 for utf8 from unicode case insensitive accent insensitive 'LOCALE=de_DE'

@@ -1,0 +1,1 @@
+create unique descending index i2 on t (a, b) where a > 1

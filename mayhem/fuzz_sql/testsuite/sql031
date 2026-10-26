@@ -1,0 +1,1 @@
+create package pk as begin function f1 (a int) returns int; procedure p1; end

@@ -1,0 +1,1 @@
+create table sch.t (a int); select * from sch.t

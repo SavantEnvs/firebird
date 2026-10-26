@@ -1,0 +1,1 @@
+select * from rdb$database where exists (select 1 from rdb$relations where rdb$relation_id > 5) and 1 in (1,2,3) and 'a' like 'a%' escape '\'

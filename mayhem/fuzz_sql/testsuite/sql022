@@ -1,0 +1,1 @@
+create table t (a int not null primary key, b varchar(30) character set utf8 collate unicode_ci, c numeric(10,2) default 0, d timestamp default current_timestamp, constraint ck check (a > 0))

@@ -1,0 +1,1 @@
+select rdb$relation_name, rdb$relation_id from rdb$relations where rdb$system_flag = 1 order by 1 rows 5

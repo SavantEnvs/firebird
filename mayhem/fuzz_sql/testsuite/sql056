@@ -1,0 +1,1 @@
+select * from rdb$relations where rdb$relation_name = ? and rdb$relation_id = ?

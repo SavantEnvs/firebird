@@ -1,0 +1,1 @@
+select json_object('a': 1), 1 from rdb$database

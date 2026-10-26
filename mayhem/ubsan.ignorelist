@@ -1,0 +1,5 @@
+# SCL_check_access (jrd/scl.epp) forms `s_class->sclClassUser.second` before testing s_class for
+# null; the address computation trips -fsanitize=null on every statement run without a security
+# class. Only this file is exempt, the null check stays on everywhere else.
+[null]
+src:*/jrd/scl.cpp

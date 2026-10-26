@@ -1,0 +1,1 @@
+recreate view v2 as select 1 as x from rdb$database

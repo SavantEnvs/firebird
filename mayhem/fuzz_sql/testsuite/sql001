@@ -1,0 +1,1 @@
+select 6*7, upper('firebird'), cast('2020-02-28' as date) + 1 from rdb$database

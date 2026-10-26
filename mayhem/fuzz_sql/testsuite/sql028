@@ -1,0 +1,1 @@
+create or alter procedure p (x int = 1) returns (y int) sql security definer as declare z int; begin y = x * 2; for select a from t where a < :x into :z do begin y = y + z; suspend; end when any do exit; end
