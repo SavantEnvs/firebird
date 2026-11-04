@@ -1,0 +1,1 @@
+select * from mon$attachments a join mon$statements s using (mon$attachment_id)

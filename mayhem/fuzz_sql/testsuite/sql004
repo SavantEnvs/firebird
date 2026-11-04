@@ -1,0 +1,1 @@
+select * from rdb$relations r join rdb$relation_fields f on f.rdb$relation_name = r.rdb$relation_name left join rdb$fields t on t.rdb$field_name = f.rdb$field_source

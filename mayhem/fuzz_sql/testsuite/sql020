@@ -1,0 +1,1 @@
+merge into rdb$relations t using rdb$relation_fields s on t.rdb$relation_name = s.rdb$relation_name when matched then update set t.rdb$description = 'm' when not matched then insert (rdb$relation_name) values (s.rdb$relation_name)

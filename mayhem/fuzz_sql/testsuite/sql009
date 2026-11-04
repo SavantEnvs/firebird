@@ -1,0 +1,1 @@
+select substring('abcdef' from 2 for 3), trim(both ' ' from '  x '), 'a' || 'b', position('c' in 'abc'), char_length('héllo'), lower('ABC') from rdb$database

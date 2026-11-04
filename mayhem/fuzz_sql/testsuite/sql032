@@ -1,0 +1,1 @@
+create package body pk as begin function f1 (a int) returns int as begin return a; end procedure p1 as begin end end

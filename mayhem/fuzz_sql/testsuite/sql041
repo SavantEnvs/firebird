@@ -1,0 +1,1 @@
+alter table t add e date, drop b, alter column c type double precision, add constraint u unique (e)

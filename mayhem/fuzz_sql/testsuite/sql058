@@ -1,0 +1,1 @@
+select rdb$get_context('SYSTEM', 'DB_NAME'), rdb$set_context('USER_SESSION', 'x', 1) from rdb$database

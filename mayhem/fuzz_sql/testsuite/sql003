@@ -1,0 +1,1 @@
+select count(*), sum(rdb$field_length), avg(rdb$field_scale) from rdb$fields group by rdb$field_type having count(*) > 1

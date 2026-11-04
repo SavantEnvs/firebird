@@ -1,0 +1,1 @@
+create domain dm as varchar(10) character set win1252 default 'x' not null check (value <> '')

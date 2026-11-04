@@ -1,0 +1,1 @@
+select cast(1.5 as numeric(10,3)) * 2, cast(3 as double precision) / 7, mod(17, 5), power(2, 10), sqrt(144.0) from rdb$database

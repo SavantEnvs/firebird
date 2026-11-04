@@ -1,0 +1,1 @@
+with recursive n(i) as (select 1 from rdb$database union all select i + 1 from n where i < 10) select i, i * i from n
