@@ -1,0 +1,1 @@
+select iif(a > 1, 'x', 'y'), case when b is null then 0 else 1 end from (select 1 a, cast(null as int) b from rdb$database)

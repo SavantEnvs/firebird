@@ -1,0 +1,1 @@
+create view v (x, y) as select a, upper(b) from t where a > 3 with check option

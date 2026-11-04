@@ -1,0 +1,1 @@
+select -a, +a, ~a from (select 1 a from rdb$database)

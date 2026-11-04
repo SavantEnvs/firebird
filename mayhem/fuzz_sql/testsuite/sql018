@@ -1,0 +1,1 @@
+update rdb$relations set rdb$description = 'd' where rdb$relation_id = 1 order by rdb$relation_id rows 1 returning old.rdb$description, new.rdb$description

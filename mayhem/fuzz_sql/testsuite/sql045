@@ -1,0 +1,1 @@
+grant select, insert on t to user u1 with grant option

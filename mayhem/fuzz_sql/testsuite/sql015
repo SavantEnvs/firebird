@@ -1,0 +1,1 @@
+select cast('1' as int128) * 170141183460469231731687303715884105727, 1e0 / 3, cast(1 as decfloat(34)) / 3 from rdb$database

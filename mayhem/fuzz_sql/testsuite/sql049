@@ -1,0 +1,1 @@
+execute block returns (r varchar(10)) as begin execute statement 'select 1 from rdb$database' with autonomous transaction into :r; end

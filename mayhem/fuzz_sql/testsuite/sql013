@@ -1,0 +1,1 @@
+select a.* from (select 1 as a from rdb$database union select 2 from rdb$database intersect select 3 from rdb$database) a

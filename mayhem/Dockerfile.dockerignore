@@ -1,0 +1,20 @@
+# Effective ignore file for `docker build -f mayhem/Dockerfile .` (BuildKit prefers it over a root
+# .dockerignore). .git is deliberately NOT ignored: the image must carry the full history (SPEC §6.2).
+# Build products of a previous local run are rebuilt by mayhem/build.sh; keep them out of the context.
+/gen/
+/configure
+/config.status
+/libtool
+/Makefile
+autom4te.cache/
+/src/include/gen/parse.h
+/src/include/gen/autoconfig.auto
+/src/include/gen/autoconfig.h
+/fuzz_blr
+/fuzz_pb
+/fuzz_sql
+/fuzz_blr-standalone
+/fuzz_pb-standalone
+/fuzz_sql-standalone
+/kat_probe
+/ctrf-report.json

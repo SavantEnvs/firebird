@@ -1,0 +1,1 @@
+set transaction read only isolation level snapshot table stability reserving t for protected write

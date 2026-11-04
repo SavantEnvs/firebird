@@ -1,0 +1,1 @@
+select max(x) over (partition by y order by z rows between 1 preceding and current row), row_number() over () from (select 1 x, 2 y, 3 z from rdb$database)

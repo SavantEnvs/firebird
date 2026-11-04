@@ -1,0 +1,1 @@
+select lag(1) over (order by 1), listagg(rdb$relation_name, ',') within group (order by 1), first_value(1) over () from rdb$relations

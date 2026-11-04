@@ -1,0 +1,1 @@
+update or insert into rdb$relations (rdb$relation_name) values ('Q') matching (rdb$relation_name)

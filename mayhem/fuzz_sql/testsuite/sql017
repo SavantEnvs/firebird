@@ -1,0 +1,1 @@
+insert into rdb$database (rdb$description) values ('x') returning rdb$description

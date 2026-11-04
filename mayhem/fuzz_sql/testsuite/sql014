@@ -1,0 +1,1 @@
+select hash('abc' using crc32), base64_encode(cast('abc' as varbinary(3))), uuid_to_char(gen_uuid()), rand() from rdb$database

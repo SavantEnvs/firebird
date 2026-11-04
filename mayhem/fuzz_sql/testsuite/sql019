@@ -1,0 +1,1 @@
+delete from rdb$relations where 1 = 0

@@ -1,0 +1,1 @@
+create function f (x int) returns int deterministic as begin return case when x is null then 0 else x + 1 end; end

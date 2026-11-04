@@ -1,0 +1,1 @@
+select extract(year from current_date), dateadd(1 day to date '2020-02-28'), datediff(day, date '2020-01-01', date '2020-12-31') from rdb$database

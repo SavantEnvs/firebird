@@ -1,0 +1,1 @@
+create trigger tt for t active before insert or update position 1 as begin new.b = coalesce(new.b, 'z') || cast(new.a as varchar(5)); if (new.c is null) then new.c = 0; end
